@@ -1,8 +1,8 @@
-<b>Unreal Engine C++ Assignment Report<b>
+<b>Unreal Engine C++ Assignment Report</b>
 
 This report details the development of a character class system with network functionalities in Unreal Engine using C++.
 
-<b>Core Features:<b>
+<b>Core Features:</b>
 <ul>
 <li>Base Character Class: A reusable C++ class was created to serve as a foundation for various character types like NPCs and the player character. This promotes code organization and simplifies future character development.</li>
 <li/>Network Safe CMC (Custom Movement Component): A custom movement component was implemented in C++ with network replication in mind. This ensures smooth character movement across clients even with varying network conditions.</li>
@@ -11,7 +11,7 @@ This report details the development of a character class system with network fun
 C++ to</li>
 <li>Blueprint Conversion: The core functionalities developed in C++ were exposed and converted to derived/inherited Blueprints. This allows for easier level design and creation of game assets by designers without needing to directly modify C++ code.</li>
 </ul>
-<b>Additional Feature:<b>
+<b>Additional Feature:</b>
 <ul>
 <li>Booster Sprint: A special "booster sprint" functionality was added on top of the standard sprint (activated by holding shift). This one-time boost, activated by right-clicking while sprinting, provides a temporary speed increase. This demonstrates the ability to implement unique gameplay mechanics within the system.</li>
 <li>Development Approach:
